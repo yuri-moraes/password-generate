@@ -12,6 +12,13 @@
   margin-bottom: 0.5em;
 }
 
+.form {
+  margin: 0 0 2em 0;
+  display: flex;
+  gap: 0.7em;
+  align-items: center;
+}
+
 .buttons {
   display: flex;
   gap: 1rem;

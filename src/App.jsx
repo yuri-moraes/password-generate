@@ -1,7 +1,7 @@
 import "./styles/index.css";
 import Button from "./components/buttons";
 import { useState } from "react";
-import Form from "./components/form/input";
+import Input from "./components/input/input";
 
 export default function App() {
   const [password, setPassword] = useState("");
@@ -28,7 +28,10 @@ export default function App() {
   return (
     <div className="container">
       <h1 className="title">Gerador de senhas</h1>
-      <Form passwordSize={passwordSize} setPasswordSize={setPasswordSize} />
+      <div className="form">
+        <label htmlFor="passwordSize">Tamanho:</label>
+        <Input passwordSize={passwordSize} setPasswordSize={setPasswordSize} />
+      </div>
       <div className="buttons">
         <Button onClick={generatePassword} text={"Gerar!"} />
         <Button onClick={copyToClipboard} text={copyText} />
