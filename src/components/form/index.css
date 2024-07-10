@@ -1,0 +1,16 @@
+.form {
+  margin: 0 0 2em 0;
+  display: flex;
+  gap: 0.7em;
+  align-items: center;
+}
+
+.form input {
+  color: white;
+  background-color: #1a1a1a;
+  height: 2em;
+  border: 2px solid transparent;
+  padding: 1em;
+  border-radius: 10px;
+  cursor: pointer;
+}
