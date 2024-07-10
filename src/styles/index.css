@@ -1,0 +1,23 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #242424;
+}
+
+.title {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.password {
+  margin-top: 1.5em;
+  color: #b9b9b9;
+}
